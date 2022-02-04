@@ -24,15 +24,15 @@ echo "8. Exit"
 read menu_item
 case $menu_item in
 
-  "1")
-    ../week\ 2/foldermaker.sh
-    ;;
+	"1")
+		../week\ 2/foldermaker.sh
+		;;
 
-  "2")
-    ../week\ 2/foldercopier.sh
-    ;;
+	"2")
+		../week\ 2/foldercopier.sh
+		;;
 
-  "3")
+	"3")
     ../week\ 2/setPassword.sh
     ;;
 
