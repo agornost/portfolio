@@ -33,8 +33,8 @@ case $menu_item in
 		;;
 
 	"3")
-    ../week\ 2/setPassword.sh
-    ;;
+		../week\ 2/setPassword.sh
+		;;
 
 	"4")
 		./calculator.sh
