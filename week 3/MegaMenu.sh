@@ -1,12 +1,18 @@
 #!/bin/bash
+#clear screen
 clear
-NC='\033[0m'
-col_blue=$'\e[1;34m'
-col_purple=$'\e[1;35m'
 
+NC='\033[0m' 							#set default terminal font colour
+col_blue=$'\e[1;34m'			#set red terminal font colour
+col_purple=$'\e[1;35m'		#set green terminal font colour
+
+#Reset menu item to zero.
+#prompt for password with passwordCheck.sh from week 2 folder
 menu_item=0
 ../week\ 2/passwordCheck.sh
 
+#Conditional check if menu item not equal
+#Looping through menu options unless menu item 8 is selected
 if test $? -eq 0 ; then
 	while [[ menu_item -ne 8 ]]
 	do
@@ -22,6 +28,7 @@ if test $? -eq 0 ; then
 printf $NC
 echo "8. Exit"
 
+#Prompt for menu item number with snippets of other scripts.
 read menu_item
 case $menu_item in
 
