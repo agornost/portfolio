@@ -1,0 +1,1 @@
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
