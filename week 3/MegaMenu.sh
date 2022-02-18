@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 NC='\033[0m'
 col_blue=$'\e[1;34m'
 col_purple=$'\e[1;35m'

@@ -25,4 +25,4 @@ while(( $REPLY < 42 || $REPLY > 42 )); do
     read -p "please type a number between 1 and 100 $1: "
   fi
 done
-echo "Correct"
+echo "Correct!"
